@@ -1,0 +1,11 @@
+# Once the installation was followed and installed all libraries and API go to anaconda prompt. this step by step is command to detect object using a pictures
+(base) C:\Users\Dateng>cd desktop
+(base) C:\Users\Dateng>Desktop> cd yolov5-master
+(base) C:\Users\Dateng>Desktop>yolov5-master> python detect.py --source data/images/'name'.jpg # Take note to save your images in YOLOV5-master file to easily find it path
+#Once the command work go to yolov5-master file the go to the 'runs' folder and open the another folder named 'Detect' and there you will see the detected pictres which is accurately detect the object in the pictures
+# If you don't want to detect the picture and to use webcam, then this is the Step by step commands
+-Go to Anaconda Prompt
+(base) C:\Users\Dateng>cd desktop
+(base) C:\Users\Dateng>Desktop> cd yolov5-master
+(base) C:\Users\Dateng>Desktop>yolov5-master> python detect.py --source 0
+# It will take a seconds before your webcam will finally opened and with that it will detect automatically.
